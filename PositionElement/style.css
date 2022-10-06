@@ -1,0 +1,98 @@
+*{
+  box-sizing: border-box;/*меняет модель подсчёта поведения браузера*/
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.arrow{
+  cursor: pointer;
+  transform: rotate(180deg);
+  width: 50px;
+  height: 50px;
+  position: fixed;
+}
+
+.box{
+  border: 2px solid #000;
+  background-color: #ccc;
+  height: 500px;
+  margin: 20px 0;
+  position: relative;
+}
+
+.text{
+  padding: 20px;
+  color: #fff;
+  background-color: #000;
+  width: 400px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.title-1{
+  font-size: 50px;
+  margin: 25px 0 50px;
+  position: sticky;
+  top: 0;
+  padding: 20px 0;
+  
+  z-index: 1;
+}
+
+.title-1::before{/*псевдоэлемент*/
+  content: '';
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  position: absolute;
+}
+
+.title-1::after{/*псевдоэлемент*/
+  content: 'fefedfef';
+}
+
+
+
+.text-1 {
+  font-size: 20px;
+  background-color: #ccc;
+}
+
+.text-1:hover{/*псевдокласс hover*/
+  background-color: #000;
+  color: #fff;
+}
+
+.title-2{
+  margin-top: 100px;
+}
+
+.text-2 {
+  font-size: 18px;
+  background-color: #ccc;
+}
+
+.images-1 {}
+
+.text-3 {
+  font-style: italic;
+}
+
+.text-4 {
+  text-align: right;
+  font-size: 14px;
+}
+
+.list {}
+
+.images-2 {}
+
+.text-5 {}

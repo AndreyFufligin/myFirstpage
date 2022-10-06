@@ -1,0 +1,49 @@
+Vscode мои настройки
+{
+    "sync.gist": "437c8ea7ff9b729f06edb31aa95e1843",
+    "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+    "files.autoSave": "onFocusChange",
+    "editor.lineHeight": 20,
+    "terminal.integrated.fontSize": 15,
+    "editor.fontSize": 15,
+    "editor.tabSize": 2,
+    "emmet.preferences": {
+        "output.reverseAttributes": true
+    }, 
+    "workbench.colorCustomizations": {
+        "editorIndentGuide.activeBackground": "#ff0000",
+        "editorIndentGuide.background": "#ff00ff"
+    },
+    "beautify.config": {
+        "[html]": {
+            "editor.defaultFormatter": "HookyQR.beautify",
+        },
+        "[css]": {
+            "editor.defaultFormatter": "HookyQR.beautify",
+        },
+        "[javascript]": {
+            "editor.defaultFormatter": "HookyQR.beautify",
+            "editor.formatOnSave": true
+        },
+    },
+    "workbench.iconTheme": "helium-icon-theme",
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
+    "files.defaultLanguage": "rus",
+    "materialTheme.accent": "Cyan",
+    "editor.formatOnPaste": true,
+    "liveSassCompile.settings.formats": [{
+        "format": "expanded",
+        "extensionName": ".css",
+        "savePath": "/css"
+    }],
+    "workbench.preferredDarkColorTheme": "Material Theme",
+    "[css]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+}
+

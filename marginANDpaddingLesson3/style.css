@@ -1,0 +1,43 @@
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.text-1 {
+  font-size: 20px;
+  background-color: #ccc;
+  margin: 50px 35px 70px 20px;/*вверх право низ лево */
+  margin: 50px 35px 70px;/*вверх слева и права снизу */
+  margin: 50px 35px; /* вверх низ лево и право*/
+  border: 3px solid #000;
+}
+
+.title-2{
+  margin-top: 100px;
+}
+
+.text-2 {
+  font-size: 18px;
+  background-color: #ccc;
+}
+
+.images-1 {}
+
+.text-3 {
+  font-style: italic;
+}
+
+.text-4 {
+  text-align: right;
+  font-size: 14px;
+}
+
+.list {}
+
+.images-2 {}
+
+.text-5 {}
